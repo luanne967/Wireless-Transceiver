@@ -1,0 +1,18 @@
+****CPE4400 Spring 2022****
+
+Software repository for calculating internal delay of STM32 in conjunction with various wireless communication technologies.
+This project uses Arduino and STM32 Cube IDE.
+
+Table of Contents:
+
+interrupt_generator.ino - Program that generates 1Hz pulses on Arduino Uno (A1).
+
+interrupt_receiver.ino - When the pulse is received by the Arduino Mega (A2), it generates its own pulse.
+
+RF_generator.ino - Program for RF transmitter that generates 1 HZ RF pulses on A1
+
+RF_receiver.ino - Program for RF receiver that receives RF pulse and calculates delays
+
+Final Nucleo Delay - STM32CubeIDE project that captures the output of A1 and A2 and calculates delays.
+
+
